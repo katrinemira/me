@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ME</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet2.css">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+<header class="top">
+	<h1>Katrine Mira Lind</h1>
+	<div class="adjective-wrapper">
+		<div class="adj"><p>Programmer</p></div>
+		<div class="adj"><p>Student</p></div>
+		<div class="adj"><p>Data technician</p></div>	
+	</div>	
+</header>
+
+<div class="me-wrapper">
+			<h3>ABOUT ME</h3>
+			<p>My name is Katrine, but my friends call me Mira. I’m 20 years old and I live in Aarhus - Denmark. </p>
+
+	        <p id="me-2ndtext">I first discovered my passion when I was 11 years old, and my sister was having friends over.
+			My duty as her baby-sister was of course to tease her and her friends.
+			I kept deleting what they were writing on their word-document. One of her friends hit CTRL+Z and all lost was now back.
+			Back then I didn’t know what kind of witchcraft this was, but I knew I wanted in.</p>
+			<a href="curricilum.html" class="arrow arrow-right" title="Next"s></a>
+			<img src="me.png"  class="center">
+			
+</div>
+
+<div class="javas-wrapper">
+		<h3>JAVASCRIPT</h3>
+		<p>I made a project in Javascript! It's about oldschool arcade games</p>
+		<a href="https://katrinemira.github.io/nostalgia/" class="arrow arrow-right" title="Next"></a>
+		<img src="nostalgia.png" style="border-radius: 200px"  class="center">		
+</div>
+
+<div class="more-wrapper">
+			<h3>RANDOM PROJECTS</h3>
+			<p>Here you can find small projects, css designs, graphics cartoons and more fun stuff. <br>When I make a project, this is where I'll link it!</p>
+			<a href="" class="arrow arrow-right" title="Next"s></a>
+			<img src="BOB14.png"  class="center">
+</div>
+
+
+<span class="divider-body">
+<div class="divider-wave" data-text="dividerdivider"></div>
+</span>
+
+<div class="contact-wrapper">
+	<ul class="contact-wrap">
+		<h2>CONTACT</h3>
+		<li>📞Phone: +45 25 54 72 01 </li>
+		<li>✉️katrine.mlind@hotmail.com </li>
+		<li>🌍Whatsapp: +45 25 54 72 01 </li>
+	</ul>
+</div>
+
+
+</body>
+</html>
+
+<script type="text/javascript">
+	//ADJECTIVE TOP
+
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+		var i;
+		var slides = document.getElementsByClassName("adj");
+			  for (i = 0; i < slides.length; i++) {
+    			slides[i].style.display = "none";  
+  }
+			slideIndex++;
+  			if (slideIndex > slides.length) {slideIndex = 1} 
+
+	slides[slideIndex-1].style.display = "block";  
+	setTimeout(showSlides, 2000);
+	}
+
+
+	//JS-WRAPPER
+</script>
